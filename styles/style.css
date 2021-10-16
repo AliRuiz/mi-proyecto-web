@@ -1,0 +1,68 @@
+/*Head*/ 
+.imagen-redes {
+width: 200px; 
+height: 150px;
+margin: 20px; margin-bottom: 2px;
+padding: auto;
+}
+a:-webkit-any-link {
+    color: white;  font-family: cursive;
+    text-align: center;
+    margin: auto
+}
+
+.box-1  {
+width: 1000px;
+text-align: center; color: white;
+background-color: cornflowerblue;       
+display: inline-block;
+font-family: cursive; font-style: normal;
+margin: 0;
+
+}
+/*Body*/
+.box-2 {
+    width: 500px;
+    text-align: center; 
+    background-color: lightgrey;
+    font-style: italic;
+    font-family: cursive; font-style: normal;
+    margin: 0;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 210px;
+}
+
+#texto-lista {
+    color: cornflowerblue;
+}
+#tarea {
+    color: cornflowerblue;
+}
+#texto-parrafo {
+color: red;
+}
+
+.box-ul {
+    border-color:black; background-color: yellow;line-height: 1;
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 50%; width: 200px;
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding:  5px;
+}
+
+
+/*Footer*/
+.box-3 {
+width: 1000px;
+text-align: center; color: white;
+background-color: cornflowerblue;       
+display: inline-block;
+font-family: cursive; font-style: normal; font-size: small;
+margin: 0;
+}
