@@ -1,0 +1,86 @@
+
+body {
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+header, footer {
+    background: #6299fb;
+    padding: 10px;
+    color: #FFF;
+}
+nav a {
+    color: #FFF;
+}
+main {
+    background: #ececec;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+/* Contenedor Principal */
+h1, h3 {
+    color: #6299fb;
+}
+p {
+    width: 50%;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+    background: yellow;
+    border: 3px solid #696464;
+    border-radius: 50%;
+    width: 200px;
+    padding: 20px;
+}
+ul li a {
+    margin-left: 10px;
+}
+ul li:first-child, ul li:first-child a {
+    color: red;
+}
+ul li:nth-child(even), ul li:nth-child(even) a {
+    color: green;
+}
+.twitter, .twitter a {
+    color: blue;
+}
+
+/* Operaciones */
+#toggleBloque {
+    display: block;
+    /* border-radius: 20px; */
+    background: rgba(128 128 128);
+    border: 2px solid #000;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.operaciones {
+    margin: 10px 0;
+}
+.operaciones button {
+    margin: 0 5px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background: white;
+}
+#operacionesContenedor {
+    
+    /* display: none; */
+    padding: 20px 0;
+}
+input {
+    border: none;
+    width: 100px;
+    height: 20px;
+}
